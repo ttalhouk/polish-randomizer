@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import PolishReducer from './polish_reducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  polishes: PolishReducer
 });
 
 export default rootReducer;
