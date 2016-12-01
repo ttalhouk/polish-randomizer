@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Randomize from './randomize';
-import RandomizeStyle from './randomize_style';
 import RandomResult from './random_result';
 
 export default class App extends Component {
@@ -8,7 +7,6 @@ export default class App extends Component {
     return (
       <div>
         <Randomize />
-        <RandomizeStyle />
         <RandomResult />
       </div>
     );

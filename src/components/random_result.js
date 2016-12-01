@@ -4,33 +4,20 @@ import { connect } from 'react-redux';
 
 
 class RandomResult extends Component{
-  componentWillMount() {
-    this.props.fetchPolish();
-  }
 
-  renderPolish(element, index) {
-    const name = element.name;
-    const brand = element.brand;
-    const type = element.type;
-    const color = element.color;
-    return(
-      <tr key={ index }>
-        <td>
-          {name}
-        </td>
-        <td>
-          {brand}
-        </td>
-        <td>
-          {type}
-        </td>
-        <td>
-          {color}
-        </td>
-      </tr>
-    )
-  }
   render() {
+    if (!this.props.polish) {
+      return(
+        <div>Please select a criteria!</div>
+      )
+    }
+
+    const name = this.props.polish.name;
+    const brand = this.props.polish.brand;
+    const type = this.props.polish.type;
+    const color = this.props.polish.color;
+
+
     return (
       <table className="table table-hover">
         <thead>
@@ -42,7 +29,21 @@ class RandomResult extends Component{
           </tr>
         </thead>
         <tbody>
-          { this.props.polishes.map(this.renderPolish)}
+          <tr>
+            <td>
+              {name}
+            </td>
+            <td>
+              {brand}
+            </td>
+            <td>
+              {type}
+            </td>
+            <td>
+              {color}
+            </td>
+          </tr>
+
         </tbody>
       </table>
     )
@@ -50,7 +51,7 @@ class RandomResult extends Component{
 }
 
 function mapStateToProps(state){
-  return { polishes: state.polishes };
+  return { polish: state.polishes.polish };
 }
 
 export default connect(mapStateToProps, actions)(RandomResult);
