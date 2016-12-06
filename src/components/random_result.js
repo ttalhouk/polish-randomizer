@@ -24,8 +24,8 @@ class RandomResult extends Component{
           <tr>
             <th>Name</th>
             <th>Brand</th>
-            <th>type</th>
-            <th>color</th>
+            <th>Type</th>
+            <th>Color</th>
           </tr>
         </thead>
         <tbody>
