@@ -8,7 +8,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Glitter",
     "name": 12046,
     "brand": "Sephora OPI",
@@ -56,7 +56,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Shiny",
     "name": 505912,
     "brand": "Orly",
@@ -200,7 +200,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Standard Color",
     "name": "Cardshark",
     "brand": "Revlon",
@@ -216,7 +216,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Standard Color",
     "name": "Carrie",
     "brand": "Julep",
@@ -224,7 +224,7 @@ export const data = [
     "": "Project Pan"
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Standard Color",
     "name": "Carry On",
     "brand": "Essie",
@@ -434,13 +434,13 @@ export const data = [
   {
     "color": "Bold Red",
     "type": "Standard Color",
-    "name": "Got the Blues for the Reds",
+    "name": "Got the Blues for the Red",
     "brand": "OPI",
     "details": "",
     "": ""
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Sparkle",
     "name": "Greta",
     "brand": "Julep",
@@ -568,7 +568,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Standard Color",
     "name": "Laree",
     "brand": "Julep",
@@ -576,7 +576,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Standard Color",
     "name": "Lauren",
     "brand": "Julep",
@@ -592,7 +592,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Glitter",
     "name": "Love",
     "brand": "Julep",
@@ -624,7 +624,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Standard Color",
     "name": "Maddy",
     "brand": "Julep",
@@ -648,7 +648,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Hot Pinks",
+    "color": "Hot Pink",
     "type": "Shiny",
     "name": "Marie",
     "brand": "Julep",
@@ -672,7 +672,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Satin",
     "name": "Mary Lee",
     "brand": "Julep",
@@ -680,7 +680,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Sparkle",
     "name": "Maryam",
     "brand": "Julep",
@@ -736,7 +736,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Standard Color",
     "name": "Naughty",
     "brand": "Orly",
@@ -1040,7 +1040,7 @@ export const data = [
     "": ""
   },
   {
-    "color": "Dark Reds",
+    "color": "Dark Red",
     "type": "Standard Color",
     "name": "Vampire State Building",
     "brand": "OPI",
