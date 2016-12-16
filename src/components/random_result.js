@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 class RandomResult extends Component{
   getImageUrl(color) {
-    return `../../images/polish_${color.toLowerCase().split(" ").join("_")}.gif`
+    return `images/polish_${color.toLowerCase().split(" ").join("_")}.gif`
   }
   render() {
     if (!this.props.polish) {

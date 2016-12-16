@@ -35486,7 +35486,7 @@
 	  _createClass(RandomResult, [{
 	    key: 'getImageUrl',
 	    value: function getImageUrl(color) {
-	      return '../../images/polish_' + color.toLowerCase().split(" ").join("_") + '.gif';
+	      return 'images/polish_' + color.toLowerCase().split(" ").join("_") + '.gif';
 	    }
 	  }, {
 	    key: 'render',
