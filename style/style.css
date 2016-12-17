@@ -1,3 +1,61 @@
 .selector {
   margin: 5px;
 }
+
+/* Starting animation state */
+.pop-out-enter {
+  opacity: 0;
+}
+
+/* End state of animation */
+.pop-out-enter-active {
+  opacity: 1;
+  transition: 1s ease-in opacity;
+}
+
+.pop-out-leave {
+  opacity: 1.0;
+  top: 0px;
+  transform: rotateX(0deg) rotateZ(0deg);
+}
+
+.pop-out-leave-active {
+  opacity: 0;
+  transform: rotateX(90deg) rotateZ(90deg);
+  transition: .5s ease-out all;
+}
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes wobble {
+  from {
+    transform: none;
+  }
+
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.polish:hover {
+  animation: wobble 1s ease-out 2;
+}
